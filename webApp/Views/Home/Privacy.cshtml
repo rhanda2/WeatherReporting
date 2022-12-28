@@ -1,0 +1,9 @@
+﻿@model Weather
+@{
+    var lincoln = ViewData["Lincoln"] as Weather;
+    var omaha = ViewData["Omaha"] as Weather;
+    var lincolnDeg = lincoln.WindDegrees + "deg";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
